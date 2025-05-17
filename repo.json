@@ -1,37 +1,45 @@
 {
-  "name": "Название приложения",
-  "bundleIdentifier": "com.example.app",
-  "developerName": "Имя разработчика",
-  "subtitle": "Краткое описание",
-  "localizedDescription": "Полное описание приложения с возможными функциями и особенностями.\n\nМожно использовать переносы строк.\n\n• Пункт 1\n• Пункт 2\n• Пункт 3",
-  "iconURL": "https://example.com/icon.png",
-  "tintColor": "hex-цвет (например, ffffff)",
-  "category": "Категория (Social, Entertainment и т.д.)",
-  "screenshotURLs": [
-    "https://example.com/screenshot1.png",
-    "https://example.com/screenshot2.png"
-  ],
-  "version": "1.0.0",
-  "versionDate": "2023-01-01",
-  "downloadURL": "https://example.com/app.ipa",
-  "versionDescription": "Описание изменений в этой версии",
-  "size": 10000000,
-  "versions": [
+  "name": "Название вашего репозитория",
+  "identifier": "com.your.repo",
+  "subtitle": "Краткое описание репозитория",
+  "description": "Полное описание вашего репозитория.\nМожно использовать переносы строк.",
+  "iconURL": "https://example.com/repo-icon.png",
+  "headerURL": "https://example.com/repo-header.png",
+  "website": "https://your-website.com",
+  "tintColor": "hex-цвет (например, FF0000)",
+  "apps": [
     {
-      "version": "1.0.0",
-      "date": "2023-01-01",
-      "localizedDescription": "Первоначальный релиз",
-      "downloadURL": "https://example.com/app.ipa",
-      "size": 10000000
+      "name": "Terraria",
+      "bundleIdentifier": "com.example.app",
+      "developerName": "Имя разработчика",
+      "subtitle": "Terraria - игра 2D  по типу майкнрафта но лучше",
+      "localizedDescription": "Полное описание приложения с функциями.\n\n• Пункт 1\n• Пункт 2",
+      "iconURL": "https://github.com/1337amogus/xdxdxdxdtestrepo/blob/main/IMG_1808.jpeg",
+      "tintColor": "FF0000",
+      "category": "Games",
+      "screenshotURLs": [
+        "https://github.com/1337amogus/xdxdxdxdtestrepo/blob/main/IMG_1810.jpeg",
+        "https://github.com/1337amogus/xdxdxdxdtestrepo/blob/main/IMG_1811.jpeg",
+        "https://github.com/1337amogus/xdxdxdxdtestrepo/blob/main/IMG_1813.jpeg"
+      ],
+      "version": "1.4.4.9.5",
+      "versionDate": "1488-05-09",
+      "downloadURL": "https://www.dropbox.com/scl/fi/katzotzk7mgcdympau84y/Terraria-v1.4.4.9.5.ipa?rlkey=7fx8z2vbj8smn8ok1lvpdzuj1&e=1&st=6hranp9h&dl=0",
+      "versionDescription": "Что нового в этой версии",
+      "size": 16300000,
+      "beta": false
     }
   ],
-  "appPermissions": {
-    "entitlements": [
-      "com.apple.security.application-groups"
-    ],
-    "privacy": {
-      "NSCameraUsageDescription": "Приложение использует камеру для..."
+  "news": [
+    {
+      "title": "Новость о приложении",
+      "identifier": "unique-news-id",
+      "caption": "Краткое описание новости",
+      "date": "2023-01-01",
+      "tintColor": "hex-цвет",
+      "imageURL": "https://example.com/news-image.png",
+      "appID": "com.example.app",
+      "notify": true
     }
-  },
-  "beta": false
+  ]
 }
