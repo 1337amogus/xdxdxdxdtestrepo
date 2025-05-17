@@ -1,0 +1,37 @@
+{
+  "name": "Название приложения",
+  "bundleIdentifier": "com.example.app",
+  "developerName": "Имя разработчика",
+  "subtitle": "Краткое описание",
+  "localizedDescription": "Полное описание приложения с возможными функциями и особенностями.\n\nМожно использовать переносы строк.\n\n• Пункт 1\n• Пункт 2\n• Пункт 3",
+  "iconURL": "https://example.com/icon.png",
+  "tintColor": "hex-цвет (например, ffffff)",
+  "category": "Категория (Social, Entertainment и т.д.)",
+  "screenshotURLs": [
+    "https://example.com/screenshot1.png",
+    "https://example.com/screenshot2.png"
+  ],
+  "version": "1.0.0",
+  "versionDate": "2023-01-01",
+  "downloadURL": "https://example.com/app.ipa",
+  "versionDescription": "Описание изменений в этой версии",
+  "size": 10000000,
+  "versions": [
+    {
+      "version": "1.0.0",
+      "date": "2023-01-01",
+      "localizedDescription": "Первоначальный релиз",
+      "downloadURL": "https://example.com/app.ipa",
+      "size": 10000000
+    }
+  ],
+  "appPermissions": {
+    "entitlements": [
+      "com.apple.security.application-groups"
+    ],
+    "privacy": {
+      "NSCameraUsageDescription": "Приложение использует камеру для..."
+    }
+  },
+  "beta": false
+}
