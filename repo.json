@@ -1,16 +1,16 @@
 {
-  "name": "Название вашего репозитория",
+  "name": "test by just",
   "identifier": "com.your.repo",
-  "subtitle": "Краткое описание репозитория",
-  "description": "Полное описание вашего репозитория.\nМожно использовать переносы строк.",
-  "iconURL": "https://example.com/repo-icon.png",
-  "headerURL": "https://example.com/repo-header.png",
-  "website": "https://your-website.com",
-  "tintColor": "hex-цвет (например, FF0000)",
+  "subtitle": "тут всякая фигня",
+  "description": "тут дофига всякой фигни и тд",
+  "iconURL": "https://github.com/1337amogus/xdxdxdxdtestrepo/blob/main/IMG_1814.jpeg",
+  "headerURL": "https://github.com/1337amogus/xdxdxdxdtestrepo/blob/main/IMG_1814.jpeg",
+  "website": "https://t.me/ezzclumsy",
+  "tintColor": "FF0000",
   "apps": [
     {
       "name": "Terraria",
-      "bundleIdentifier": "com.example.app",
+      "bundleIdentifier": "idk",
       "developerName": "Имя разработчика",
       "subtitle": "Terraria - игра 2D  по типу майкнрафта но лучше",
       "localizedDescription": "Полное описание приложения с функциями.\n\n• Пункт 1\n• Пункт 2",
@@ -32,13 +32,13 @@
   ],
   "news": [
     {
-      "title": "Новость о приложении",
+      "title": "Новость о Terraria",
       "identifier": "unique-news-id",
-      "caption": "Краткое описание новости",
-      "date": "2023-01-01",
-      "tintColor": "hex-цвет",
-      "imageURL": "https://example.com/news-image.png",
-      "appID": "com.example.app",
+      "caption": "Мы ждем 5 лет обнову и она не выходит",
+      "date": "2025-05-17",
+      "tintColor": "FF0000",
+      "imageURL": "https://github.com/1337amogus/xdxdxdxdtestrepo/blob/main/IMG_1814.jpeg",
+      "appID": "lol",
       "notify": true
     }
   ]
